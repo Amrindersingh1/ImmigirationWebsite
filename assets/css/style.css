@@ -1172,6 +1172,22 @@ section {
 /*--------------------------------------------------------------
 # Contact
 --------------------------------------------------------------*/
+.form-check-label {
+  padding-left: 10px;
+}
+
+ .checkp {
+  padding-top: 20px;
+}
+
+.form-check {
+  padding-top: 0px;
+}
+
+.row {
+  padding-top: 10px;
+}
+
 .contact .info-box {
   color: #444444;
   text-align: center;
