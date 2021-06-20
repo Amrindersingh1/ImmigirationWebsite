@@ -7,6 +7,7 @@
   */
 
   // Replace contact@example.com with your real receiving email address
+  if(isset($_POST['submit'])) {
   $receiving_email_address = 'info@oceanfrontimmigration.ca';
 
   if( file_exists($php_email_form = '../assets/vendor/php-email-form/php-email-form.php' )) {
@@ -38,4 +39,5 @@
   $contact->add_message( $_POST['message'], 'Message', 10);
 
   echo $contact->send();
+}
 ?>
