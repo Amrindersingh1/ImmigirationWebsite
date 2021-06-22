@@ -207,21 +207,21 @@ h1, h2, h3, h4, h5, h6 {
   align-items: center;
   justify-content: space-between;
   padding: 10px 0 10px 30px;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: 600;
-  color: #fff;
+  color: rgb(161, 10, 10);
   white-space: nowrap;
   transition: 0.3s;
 }
 
 .navbar a i, .navbar a:focus i {
-  font-size: 12px;
+  font-size: 20px;
   line-height: 0;
   margin-left: 5px;
 }
 
 .navbar a:hover, .navbar .active, .navbar .active:focus, .navbar li:hover > a {
-  color: #9d0208;
+  color: #747071;
 }
 
 .navbar .dropdown ul {
@@ -291,7 +291,7 @@ h1, h2, h3, h4, h5, h6 {
 * Mobile Navigation 
 */
 .mobile-nav-toggle {
-  color: #fff;
+  color: rgb(53, 51, 51);
   font-size: 28px;
   cursor: pointer;
   display: none;
@@ -400,7 +400,6 @@ h1, h2, h3, h4, h5, h6 {
 
 #hero:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -419,7 +418,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 64px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-family: "Poppins", sans-serif;
 }
 
@@ -428,7 +427,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero h2 {
-  color: rgba(255, 255, 255, 0.9);
+  color: rgba(0, 0, 0, 0.9);
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -436,7 +435,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero .icon-box {
   padding: 30px 20px;
   transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
+  border: 8px solid rgba(112, 109, 109, 0.514);
   height: 100%;
   text-align: center;
 }
@@ -448,7 +447,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .icon-box h3 {
-  font-weight: 700;
+  font-weight: 800;
   margin: 10px 0 0 0;
   padding: 0;
   line-height: 1;
@@ -457,7 +456,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero .icon-box h3 a {
-  color: #fff;
+  color: rgb(0, 0, 0);
   transition: ease-in-out 0.3s;
 }
 
@@ -642,7 +641,7 @@ section {
   border: 1px solid #ebebeb;
   padding: 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: rgba(150, 148, 148, 0.1);
 }
 
 .services .icon-box .icon {
@@ -1425,13 +1424,21 @@ section {
 --------------------------------------------------------------*/
 .pricing .box {
   padding: 20px;
-  background: #fff;
+  background: rgba(112, 109, 109, 0.61);
   text-align: center;
   border-radius: 5px;
   position: relative;
   overflow: hidden;
   box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.1);
 }
+
+.pricing .btn-wrap {
+  margin: 20px -20px -20px -20px;
+  padding: 20px 15px;
+  background: rgba(112, 109, 109, 0.514);
+  text-align: center;
+}
+
 
 .pricing h3 {
   font-weight: 400;
@@ -1487,6 +1494,8 @@ section {
   text-decoration: line-through;
 }
 
+
+
 .btn-wrap {
   margin: 20px -20px -20px -20px;
   padding: 20px 15px;
@@ -1515,6 +1524,13 @@ section {
 .pricing .featured h3 {
   color: #fff;
   background: #9d0208;
+  font-weight: bolder;
+}
+
+.pricing .featured li {
+  color: #fff;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 .pricing .advanced {
